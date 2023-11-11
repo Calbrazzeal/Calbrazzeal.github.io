@@ -1,58 +1,36 @@
-.whole-page {
-    background-color: antiquewhite;
-    border-style: dotted;
-    border-color: blue;
-    border-radius: 5px;
-
-}
-
-h1 {
-    color: pink;
-    background-color: rgb(15, 14, 13);
-}
-
-.title {
-    color: orange;
-    background-color: azure;
-
+body {
+    background-color: rgb(178, 212, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Styles for the "container" class */
 .container {
     position: relative;
+    width: center;
     text-align: center;
+    /* border-style: solid; */
+    border-radius: 10px;
+    border-color: rgb(25, 96, 120);
+    border-width: 10px;
+
 }
 
 /* Styles for the "bottom-left" class */
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 710px;
+    bottom: 20px;
+    left: 50px;
     color: aliceblue;
 }
 
-/* Styles for the "top-left" class */
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
+#button-container {
+    text-align: center;
 }
 
-/* Styles for the "top-right" class */
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
 
-/* Styles for the "bottom-right" class */
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-
-/* Styles for the "centered" class */
+/* Styles for the "centered" Web3 picture */
 .centered {
     position: absolute;
     top: 50%;
@@ -60,3 +38,5 @@ h1 {
     color: aliceblue;
     transform: translate(-50%, -50%);
 }
+
+nav {}
