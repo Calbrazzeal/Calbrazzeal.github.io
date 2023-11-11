@@ -49,11 +49,19 @@
 <!--Navigation bar-->
 <nav>
     <div class="button-container">
-        <button type="button">Web3 problem solving</button>
-        <button type="button">How to become a Web3 developer</button>
-        <button type="button">Web3 Jobs and Salaries</button>
+        <button type="button" onclick="openPage('web3_problem_solving.html')">Web3 problem solving</button>
+        <button type="button" onclick="openPage('how_to_become_web3_developer.html')">How to become a Web3
+            developer</button>
+        <button type="button" onclick="openPage('web3_jobs_and_salaries.html')">Web3 Jobs and Salaries</button>
     </div>
 </nav>
+
+<script>
+    function openPage(url) {
+        // Open the specified URL in a new tab
+        window.open(url, '_blank');
+    }
+</script>
 
 <br> <br> <br>
 <br> <br> <br>
