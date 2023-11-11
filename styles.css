@@ -12,7 +12,7 @@ body {
 }
 
 /* Styles for the "container" class */
-.photocontainer1 {
+.boardroom {
     position: relative;
     width: center;
     text-align: center;
@@ -27,8 +27,8 @@ body {
 
 }
 
-/* Styles for the "centered" text in the picture */
-.centered {
+/* Styles for the "Women in Web3" text in the boardroom */
+.centered-text {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -37,18 +37,6 @@ body {
     font-size: 50px;
     font-family: 'Edu TAS Beginner', cursive;
 }
-
-
-
-
-/* Styles for the "bottom-left" class */
-.bottom-left {
-    position: absolute;
-    bottom: 20px;
-    left: 50px;
-    color: aliceblue;
-}
-
 
 
 /* Buttons */
