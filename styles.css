@@ -5,8 +5,14 @@ body {
     align-items: center;
 }
 
+.title {
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
 /* Styles for the "container" class */
-.container {
+.photocontainer1 {
     position: relative;
     width: center;
     text-align: center;
@@ -14,6 +20,23 @@ body {
     border-radius: 10px;
     border-color: rgb(25, 96, 120);
     border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+
+}
+
+.photocontainer2 {
+    position: relative;
+    width: center;
+    text-align: center;
+    /* border-style: solid; */
+    border-radius: 10px;
+    border-color: rgb(25, 96, 120);
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(255, 0, 30);
+    border-width: 2px;
 
 }
 
@@ -25,18 +48,51 @@ body {
     color: aliceblue;
 }
 
-#button-container {
-    text-align: center;
+.button-container {
+    display: flex;
+    text-align: right;
+    margin: 5px;
+    /* border-style: solid;
+    border-color: blue;
+    border-width: 2px; */
+
 }
 
 
 /* Styles for the "centered" Web3 picture */
 .centered {
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 50%;
     color: aliceblue;
     transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: 'Edu TAS Beginner', cursive;
 }
 
-nav {}
+
+/* Styles for the first button */
+.button-container button:nth-child(1) {
+    /* border-style: solid;
+    border-color: blue;
+    border-width: 2px; */
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 10px;
+}
+
+
+/* Styles for the second button */
+.button-container button:nth-child(2) {
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 10px;
+}
+
+/* Styles for the third button */
+.button-container button:nth-child(3) {
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 10px;
+
+}
