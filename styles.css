@@ -16,16 +16,16 @@ body {
 
 }
 
-.background-image1 {
+.background-image {
     background-image: url(diamond.jpg);
-    /* background-image: url(web3-city.jpg); */
+    background-image: url(web3-city.jpg);
     content: "";
     /* background-size: 95%; */
     background-repeat: no-repeat;
     background-size: contain;
     /* background-repeat: repeat; */
     position: fixed;
-    background-position: left center;
+    /* background-position: center; */
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -34,23 +34,7 @@ body {
     z-index: -1;
 }
 
-.background-image2 {
-    /* background-image: url(diamond.jpg); */
-    background-image: url(web3-city.jpg);
-    content: "";
-    /* background-size: 95%; */
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* background-repeat: repeat; */
-    position: fixed;
-    background-position: right center;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    /* opacity: .7; */
-    z-index: -1;
-}
+
 
 
 
