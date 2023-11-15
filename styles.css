@@ -21,53 +21,28 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-
-    /* background-image: url('image1.jpg'), url('image2.jpg'); */
-
-    background-position: left, right;
-    /* Adjust the positioning of each image */
-    background-size: 50%, 50%;
-    /* Set the size of each image */
-    background-repeat: no-repeat, no-repeat;
-    /* Ensure images are not repeated */
-
-
-
     background-image: url(diamond.jpg), url(diamond\ 2.jpg);
-    content: "";
-    /* background-size: 95%; */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
-    /* background-repeat: repeat; */
+    /* Adjust the positioning of each image */
+    background-position: left, right;
+
+    /* Set the size of each image */
+    background-size: 50%, 50%;
+
+    /* Ensure images are not repeated */
+    background-repeat: no-repeat, no-repeat;
     position: fixed;
-    /* background-position: center; */
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    /* opacity: .7; */
     z-index: -1;
 }
 
 
 
-/* Styles for the "container" class */
-.boardroom {
-    position: relative;
-    width: center;
-    text-align: center;
-    /* border-style: solid; */
-    border-radius: 10px;
-    border-color: rgb(25, 96, 120);
-    border-width: 10px;
-    border-style: solid;
-    border-color: blue;
-    border-width: 2px;
-    margin: 5px;
 
-}
+/* 
 
-/* Styles for the "Women in Web3" text in the boardroom */
 .centered-text {
     position: absolute;
     top: 60%;
@@ -78,6 +53,10 @@ body {
     font-family: 'Edu TAS Beginner', cursive;
 
 }
+
+*/
+
+
 
 
 /* Buttons */
@@ -90,10 +69,9 @@ body {
 
 .button-container button {
     font-size: 30px;
-    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Audiowide', sans-serif;
     margin: 10px;
-    color: rgb(0, 42, 255);
+    color: rgba(0, 64, 255, 0.87);
     text-decoration: underline;
-}
 
-/* web3 problem solving  */
+}
