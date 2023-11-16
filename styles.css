@@ -61,17 +61,84 @@ body {
 
 /* Buttons */
 
-*/ .button-container {
-    display: flex;
-    text-align: right;
-    margin: 5px;
-}
-
 .button-container button {
-    font-size: 30px;
+    font-size: 23px;
     font-family: 'Audiowide', sans-serif;
     margin: 10px;
-    color: rgba(0, 64, 255, 0.87);
+    margin-left: 5px;
+    color: rgba(232, 235, 243, 0.87);
+    background-color: transparent;
+    border: none;
     text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
 
+.button-container button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.button-container button:hover::before {
+    opacity: 1;
+}
+
+@keyframes electric-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button-container button:hover {
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+    animation: electric-pulse 0.5s ease-in-out infinite;
+}
+
+
+
+.diamond-shape {
+    width: 200px;
+    height: 200px;
+    /* Set the height to be the same as the width to maintain aspect ratio */
+    transform: rotate(45deg);
+    /* Rotate the image by 45 degrees to create a diamond shape */
+    transform-origin: 50% 50%;
+    /* Set the rotation origin to the center of the image */
+    overflow: hidden;
+    /* Hide the parts of the image that go beyond the diamond shape */
+    /* Positioning properties */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Animation properties */
+    animation: rotateAnimation 5s linear infinite;
+    /* Adjust the duration and other properties as needed */
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(405deg);
+        /* 45deg + 360deg for a full rotation */
+    }
 }
