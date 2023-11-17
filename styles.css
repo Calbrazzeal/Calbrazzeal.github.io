@@ -7,14 +7,14 @@ body {
 
 }
 
-.title {
+/* .title {
     color: aliceblue;
     font-size: 60px;
     font-family: 'Edu TAS Beginner', cursive;
     text-align: center;
 
 
-}
+} */
 
 
 .background-image {
@@ -39,6 +39,28 @@ body {
 }
 
 
+.center-text {
+    /* font-family: 'Edu TAS Beginner', sans-serif; Use your desired font */
+    font-size: 6em;
+    /* Adjust the font size as needed */
+    /* Add any other styles you want for the text */
+    /* font-size: 23px; */
+    font-family: 'Audiowide', sans-serif;
+    margin: 10px;
+    margin-top: 200px;
+    margin-left: 5px;
+    color: rgba(232, 235, 243, 0.87);
+    background-color: transparent;
+    border: none;
+    /* text-decoration: underline; */
+    cursor: pointer;
+    position: relative;
+    /* overflow: hidden; */
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.8);
+    animation: glowing 2s infinite;
+
+
+}
 
 
 /* 
@@ -61,7 +83,7 @@ body {
 
 /* Buttons */
 
-.button-container button {
+/* .button-container button {
     font-size: 23px;
     font-family: 'Audiowide', sans-serif;
     margin: 10px;
@@ -73,8 +95,12 @@ body {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-}
+} */
 
+
+
+
+/* 
 .button-container button::before {
     content: "";
     position: absolute;
@@ -109,6 +135,55 @@ body {
 .button-container button:hover {
     text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
     animation: electric-pulse 0.5s ease-in-out infinite;
+}
+ */
+
+.button-container button {
+    font-size: 23px;
+    font-family: 'Audiowide', sans-serif;
+    margin: 10px;
+    margin-left: 5px;
+    color: rgba(232, 235, 243, 0.87);
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    /* overflow: hidden; */
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.8);
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        text-shadow: 0 0 30px rgba(0, 255, 255, 1), 0 0 60px rgba(0, 255, 255, 1), 0 0 90px rgba(0, 255, 255, 1);
+    }
+
+    50% {
+        text-shadow: 0 0 60px rgba(0, 255, 255, 1), 0 0 90px rgba(0, 255, 255, 1), 0 0 120px rgba(0, 255, 255, 1);
+    }
+
+    100% {
+        text-shadow: 0 0 30px rgba(0, 255, 255, 1), 0 0 60px rgba(0, 255, 255, 1), 0 0 90px rgba(0, 255, 255, 1);
+    }
+}
+
+.button-container button:hover {
+    animation: electric-pulse .75s ease-in-out infinite;
+}
+
+@keyframes electric-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 
