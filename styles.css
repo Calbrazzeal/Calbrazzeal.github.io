@@ -128,7 +128,7 @@ body {
     top: 0;
     left: 0;
     /* Animation properties */
-    animation: rotateAnimation 5s linear infinite;
+    animation: rotateAnimation 8s linear infinite;
     /* Adjust the duration and other properties as needed */
 }
 
