@@ -48,12 +48,21 @@ body {
 
 
 
+.button-container {
+    display: flex;
+    text-align: right;
+    margin: 5px;
+    margin-left: -300px;
+    /* Adjust this value according to your preference */
+}
+
 
 .button-container button {
-    font-size: 23px;
+    font-size: 30px;
     font-family: 'Audiowide', sans-serif;
     margin: 10px;
     margin-left: 5px;
+    /* margin-right: 50px; */
     color: rgba(232, 235, 243, 0.87);
     background-color: transparent;
     border: none;
