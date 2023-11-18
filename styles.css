@@ -10,7 +10,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-image: url(diamond.jpg), url(diamond\ 2.jpg);
+    background-image: url(diamond1.jpg), url(diamond2.jpg);
     background-position: left, right;
     background-size: 50%, 50%;
     background-repeat: no-repeat, no-repeat;
