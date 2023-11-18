@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(65, 190, 209, 0.232);
+    font-family: 'Audiowide', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container,
+.description-container {
+    flex: 1;
+}
+
+.image-container img,
+.description-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description-container p {
+    text-align: center;
+}

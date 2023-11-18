@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(65, 190, 209, 0.232);
+    font-family: 'Audiowide', sans-serif;
+    margin: 10;
+
+}
+
+/* title */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 900px;
+    color: rgba(55, 16, 228, 0.87);
+}
+
+.chart {
+    display: flex;
+    margin: 110px;
+
+}
+
+.web3-city {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.image-container,
+.description-container {
+    flex: 1;
+}
+
+.image-container img,
+.description-container img {
+    max-width: 100%;
+    margin-top: 10px;
+    height: auto;
+
+}
+
+.description-container {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif margin: 100;
+
+
+}
