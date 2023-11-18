@@ -1,5 +1,4 @@
 body {
-    /* background-color: rgb(178, 212, 224); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,13 +11,8 @@ body {
     height: 100vh;
     display: flex;
     background-image: url(diamond.jpg), url(diamond\ 2.jpg);
-    /* Adjust the positioning of each image */
     background-position: left, right;
-
-    /* Set the size of each image */
     background-size: 50%, 50%;
-
-    /* Ensure images are not repeated */
     background-repeat: no-repeat, no-repeat;
     position: fixed;
     top: 0px;
@@ -53,7 +47,6 @@ body {
     text-align: right;
     margin: 5px;
     margin-left: -300px;
-    /* Adjust this value according to your preference */
 }
 
 
@@ -62,14 +55,12 @@ body {
     font-family: 'Audiowide', sans-serif;
     margin: 10px;
     margin-left: 5px;
-    /* margin-right: 50px; */
     color: rgba(232, 235, 243, 0.87);
     background-color: transparent;
     border: none;
     text-decoration: underline;
     cursor: pointer;
     position: relative;
-    /* overflow: hidden; */
     text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.8);
     animation: glowing 2s infinite;
 }
